@@ -6,7 +6,7 @@ const client = require('./lib/database-client');
 const app = require('/lib/app');
 
 const assert = chai;
-chai.use = chai(http);
+//chai.use = chai(http);
 
 describe('table of rocks', () => {
 
