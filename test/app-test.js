@@ -34,7 +34,7 @@ describe('table of rocks', () => {
     
     it('saves a rock to table', () => {
         return chai.request(app);
-        assert.equal(rock.lapis.id);
+        assert.equal(rock);
     });
 
 });
